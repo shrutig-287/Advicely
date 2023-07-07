@@ -1,0 +1,166 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+body {
+    color: #5a5a5a;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background: linear-gradient(-45deg,rgb(173, 196, 255), #ffffff, rgb(173, 196, 255));
+    padding-bottom: 2rem;
+    overflow-x: hidden; 
+  }
+
+  /* CUSTOMIZE THE NAVBAR
+  -------------------------------------------------- */
+  .navbar {
+    font-weight: 700;
+    background: linear-gradient(-45deg,rgb(141, 173, 252), #ecf2ff, rgb(141, 173, 252));
+    font-size: large;
+    font-display:inherit;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .nav-link {
+    color:rgb(2, 30, 123);
+  }
+
+  .navbar-brand {
+    color:rgb(2, 30, 123);
+    font-size: 1.5rem;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Heading
+  ------------------------- */
+  .headers {
+    background-image: url('../images/advice19.png');
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 32rem;
+    color:rgb(2, 30, 123);
+    text-align: center;
+    padding-top: 8rem; 
+  }
+ 
+  #start {
+    margin-top: 3.5rem; 
+    background-color: rgb(2, 30, 123); 
+    padding: 4rem; 
+    padding-top: 0.95rem; 
+    padding-bottom: 0.95rem; 
+    font-size: larger; 
+    transition: transform .2s;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif"
+  }
+
+  #start:hover {
+    transform: scale(1.10);
+  }
+
+  .heading {
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  /* Featurettes
+  ------------------------- */
+  .featurette-divider {
+    margin: 2rem 0rem 2rem; 
+  }
+  
+  .divider {
+    margin: 0.5rem 4rem 0.5rem; 
+  }
+  
+  /* Content
+  ------------------------- */
+  .content {
+    padding: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .point {
+    background-color: #a4b9e8;
+    padding:1rem;
+    color:rgb(2, 30, 123);
+    transition: transform .2s;
+    border-radius: 15px;
+  }
+
+  .point:hover {
+    transform: scale(1.03);
+    background-color: #0d2352;
+    color: #f6f8fa;
+  }
+
+  #submit {
+    text-align: center;
+    transition: transform .1s;
+  }
+
+  #submit:hover {
+    transform: scale(1.03);
+  }
+
+  /* Content Heads
+  ------------------------- */
+  .values {
+    padding-left: 4rem;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(2, 30, 123);
+  }
+
+  /* FOOTER
+  -------------------------------------------------- */
+  .foot { 
+    min-height: auto;
+    padding-top: 0;
+}
+
+  .share a{
+    height: 2.5rem;
+    width: 2.5rem;
+    text-align: center;
+    border-radius: 4rem;
+    border:.1rem solid rgb(16, 1, 59);
+    background-color: rgb(23, 1, 84);
+    margin-right: 0.5rem;
+    display:inline-block;
+    flex-wrap: wrap;
+    padding: 0.75rem;
+  }
+
+  .foot .share a:hover{
+    background:rgb(127, 157, 255);
+  }
+
+  .footer .share i{
+    font-size: 1.5rem;
+    color:#ccc;
+    padding: 1rem;
+    /* padding-right: 1rem; */
+    color:var(--red);
+}
